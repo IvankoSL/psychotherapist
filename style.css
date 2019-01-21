@@ -8,34 +8,120 @@
 html {
 	height: 100%;
 }
+
 body {
     width: auto;   
 }
+
 a{
 	text-decoration: none;
 	color: black;
 }
-nav {
+
+header {	
 	height: 60px;
 	display: flex;
 	box-shadow: 0 0 30px rgba(0,0,0,0.4);
 	padding-top: 10px;
 	color: black;
 }
-.name_logo{	
-    display: flex;
-    margin-left: 70px;
+
+.wrapper{
+	width: 76%;
+	margin: 0 auto;
+}
+
+.nameLogo{	
+    display: flex;    
     padding: 1px; 
 }
-.logo_name{
+
+.logoName{
 	margin-left: 50px;
 }
+
 .topnav{
     margin-left: auto;
-    padding: 10px 60px 0 0;    
+    padding-top: 10px;    
 }
+
 .topnav a{    
     text-align: center;
     padding: 14px 16px;
     font-size: 15px;
+}
+
+.about{
+	display: flex;
+}
+
+.rightAbout{
+   margin: -5% -10% 0 0 ; 
+}
+
+.leftAbout{
+	margin: 45px 120px 0 0;	
+}
+
+.leftAbout p{
+	margin-top: 20px;
+}
+
+.titleOne{
+	text-align: center;	   
+}
+
+.imgGull{
+	background:url(img/gull.svg) no-repeat;
+	width: 250px;
+	height: 110px;
+	margin: auto; 
+}
+
+.titleOne h2{
+	margin: auto 240px;
+}
+
+.colum{
+	display: flex;	
+}
+
+dd{
+	list-style:none;    
+}
+
+dd:before{
+	content:"";
+    background:url(img/cloud.svg) no-repeat;
+    float:left;
+    width:30px;
+    height:30px;
+    margin-right:10px;	 
+}
+
+.leftColum{
+	display: block;	
+    width: 40vw;
+    flex: 2;
+    padding: 70px;             
+}
+
+.rightColum{
+	display: block;	
+    width: 40vw;
+    flex: 2;
+    padding: 70px;     
+}
+
+.titleTwo{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.titleTwo p{
+    margin: auto 275px; 
+}
+
+.titleTwo button{
+	margin: 20px auto; 
 }
