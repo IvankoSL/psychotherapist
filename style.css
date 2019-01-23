@@ -119,9 +119,46 @@ dd:before{
 }
 
 .titleTwo p{
-    margin: auto 275px; 
+    margin: auto 300px; 
 }
 
 .titleTwo button{
 	margin: 20px auto; 
+	width: 350px;
+	height: 50px;
+	background: green;
+	border-radius: 45px;	
+	color: white;
+	border: none;
+	font-size: 20px;
 }
+
+.services{
+    background: url(img/fon1.svg) 100% 100% no-repeat;
+    background-size: cover; 
+    margin: 50px auto;
+}
+
+.services h3{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.servicesСards{
+	display: flex;
+	flex-direction: row;
+}
+
+.servicesСards p{
+    text-align: center;
+    margin: 50px 10px 10px 10px; 
+}
+
+.card1{
+	border: solid black 1px;
+	padding: 150px 48px; 
+	margin: 100px 12px 40px 2px;	
+	background: url(img/fon2.svg) 50% 95% no-repeat;
+	background-size: cover;
+}
+
