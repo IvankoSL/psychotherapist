@@ -141,24 +141,49 @@ dd:before{
 
 .services h3{
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 50px;
 }
 
 .servicesСards{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row;	
 }
 
 .servicesСards p{
     text-align: center;
-    margin: 50px 10px 10px 10px; 
+    margin: 147px 25px 40px 25px;
+    padding: 10px 60px ;  
 }
 
-.card1{
-	border: solid black 1px;
-	padding: 150px 48px; 
-	margin: 100px 12px 40px 2px;	
-	background: url(img/fon2.svg) 50% 95% no-repeat;
+.card1{			
+	background: url(img/fon2.svg) 50% 100% no-repeat;
+	background-size: cover;
+}
+.card2{			
+	background: url(img/fon3.svg) 50% 100% no-repeat;
 	background-size: cover;
 }
 
+.card3{			
+	background: url(img/fon4.svg) 50% 100% no-repeat;
+	background-size: cover;
+}
+
+.card4{			
+	background: url(img/fon5.svg) 50% 100% no-repeat;
+	background-size: cover;
+}
+
+.titleThree{
+	text-align: center;
+}
+
+.servicesСards2{
+	border: solid black 1px; 
+	display: flex;
+	padding: 10px 10px 10px 10px; 
+}
+
+.card5{
+	border: solid black 1px;
+}
