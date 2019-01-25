@@ -151,27 +151,28 @@ dd:before{
 
 .servicesСards p{
     text-align: center;
-    margin: 147px 25px 40px 25px;
-    padding: 10px 60px ;  
+    margin: 70px 10px;
+    padding: 25px 67px ; 
+    position: relative;
+    right: 5px;
+    top: 30px;
+    font-size: 14px; 
 }
 
 .card1{			
 	background: url(img/fon2.svg) 50% 100% no-repeat;
-	background-size: cover;
 }
+
 .card2{			
-	background: url(img/fon3.svg) 50% 100% no-repeat;
-	background-size: cover;
+	background: url(img/fon3.svg) 50% 100% no-repeat	
 }
 
 .card3{			
-	background: url(img/fon4.svg) 50% 100% no-repeat;
-	background-size: cover;
+	background: url(img/fon4.svg) 50% 100% no-repeat;	
 }
 
 .card4{			
-	background: url(img/fon5.svg) 50% 100% no-repeat;
-	background-size: cover;
+	background: url(img/fon5.svg) 50% 100% no-repeat;	
 }
 
 .titleThree{
@@ -179,11 +180,22 @@ dd:before{
 }
 
 .servicesСards2{
-	border: solid black 1px; 
+	border: solid black 1px;
+	background: white;	 
 	display: flex;
-	padding: 10px 10px 10px 10px; 
+	padding: 25px 0 42px 0; 
+	margin: 10px 10px 10px 10px; 
 }
 
+.card{
+	padding: 10px 20px ; 
+	text-align: center;
+}
+
+.activ{
+	display: flex;
+	flex-direction: column;
+}
 .card5{
 	border: solid black 1px;
 }
