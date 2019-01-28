@@ -176,26 +176,39 @@ dd:before{
 }
 
 .titleThree{
+	margin: auto 200px;
+	padding: 40px 200px; 
 	text-align: center;
+}
+
+.titleThree p{
+	margin-top: 40px;
 }
 
 .servicesСards2{
 	border: solid black 1px;
 	background: white;	 
-	display: flex;
-	padding: 25px 0 42px 0; 
-	margin: 10px 10px 10px 10px; 
+	display: flex;	
 }
 
 .card{
-	padding: 10px 20px ; 
+	margin: 30px;	
 	text-align: center;
+	border: solid black 1px;
+	background: rgba(255, 255, 255,0.6);
+	box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+
+.inCard{
+	padding: 10px 45px 10px 60px;
+}
+
+.inCard p{
+	padding:  40px 20px;
 }
 
 .activ{
 	display: flex;
 	flex-direction: column;
 }
-.card5{
-	border: solid black 1px;
-}
+
