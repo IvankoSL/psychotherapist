@@ -18,22 +18,28 @@ a{
 	color: black;
 }
 
-header {	
+header {
+	background-color: white ;
+	width: 100% ;	
 	height: 60px;
 	display: flex;
 	box-shadow: 0 0 30px rgba(0,0,0,0.4);
 	padding-top: 10px;
 	color: black;
+	z-index: 1;	
+	position: fixed ;
 }
 
 .wrapper{
 	width: 76%;
 	margin: 0 auto;
+	
 }
 
 .nameLogo{	
     display: flex;    
-    padding: 1px; 
+	padding: 1px; 
+	
 }
 
 .logoName{
@@ -52,11 +58,12 @@ header {
 }
 
 .about{
-	display: flex;
+    padding-top: 80px ;
+	display: flex;	
 }
 
 .rightAbout{
-   margin: -5% -10% 0 0 ; 
+   margin: -5% -10% 0 0 ;          
 }
 
 .leftAbout{
@@ -83,7 +90,11 @@ header {
 }
 
 .colum{
-	display: flex;	
+	display: flex;
+	box-sizing: border-box ;
+	margin: 0 auto ;
+	width: 100% ;
+	margin-top: 50px ;
 }
 
 dd{
@@ -103,19 +114,25 @@ dd:before{
 	display: block;	
     width: 40vw;
     flex: 2;
-    padding: 70px;             
+	box-sizing: border-box ;
+	margin: 0 auto ;
+	width: 50% ; 
+	padding: 0 10px ;           
 }
 
 .rightColum{
 	display: block;	
     width: 40vw;
     flex: 2;
-    padding: 70px;     
+	box-sizing: border-box ;
+	margin: 0 auto ;
+	width: 50% ;
+	padding: 0 10px ;
 }
 
 .titleTwo{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 .titleTwo p{
@@ -123,7 +140,7 @@ dd:before{
 }
 
 .titleTwo button{
-	margin: 20px auto; 
+	margin: 40px auto; 
 	width: 350px;
 	height: 50px;
 	background: green;
@@ -134,9 +151,11 @@ dd:before{
 }
 
 .services{
-    background: url(img/fon1.svg) 100% 100% no-repeat;
-    background-size: cover; 
-    margin: 50px auto;
+	background: url(img/fon1.svg) ;
+	background-repeat: no-repeat ;
+	background-size: cover ; 
+	box-sizing: border-box ;
+	margin: 0 auto ;		
 }
 
 .services h3{
@@ -146,33 +165,52 @@ dd:before{
 
 .servicesСards{
 	display: flex;
-	flex-direction: row;	
+	flex-direction: row;
+	box-sizing: border-box ;
+	margin: 0 auto ;
+	width: 100% ;
+	text-align: center ;
+	max-width: 1350px ;	
 }
 
-.servicesСards p{
-    text-align: center;
-    margin: 70px 10px;
-    padding: 25px 67px ; 
-    position: relative;
-    right: 5px;
-    top: 30px;
-    font-size: 14px; 
+.serviseCard{
+   box-sizing: border-box ;
+   margin: 0 auto ;
+   width: 50% ; 
+   text-align: center ;       
 }
+
+.serviseCard p{
+	padding: 0 40px ;
+	width: 180px ;
+	margin-top: 115px ;
+	margin-bottom: 100px ;
+	max-width: 1350px ;	
+	
+}	
 
 .card1{			
-	background: url(img/fon2.svg) 50% 100% no-repeat;
+	background: url(img/fon2.svg) ;
+	background-repeat: no-repeat ;
+	background-size: contain ;
 }
 
 .card2{			
-	background: url(img/fon3.svg) 50% 100% no-repeat	
+	background: url(img/fon3.svg) ;
+	background-repeat: no-repeat ;
+	background-size: contain ;
 }
 
 .card3{			
-	background: url(img/fon4.svg) 50% 100% no-repeat;	
+	background: url(img/fon4.svg) ;	
+	background-repeat: no-repeat ;
+	background-size: contain ;
 }
 
 .card4{			
-	background: url(img/fon5.svg) 50% 100% no-repeat;	
+	background: url(img/fon5.svg) ;
+	background-repeat: no-repeat ;
+	background-size: contain ;	
 }
 
 .titleThree{
@@ -191,21 +229,15 @@ dd:before{
 	display: flex;	
 }
 
-.card{
-	margin: 30px;	
-	text-align: center;
-	border: solid black 1px;
-	background: rgba(255, 255, 255,0.6);
-	box-shadow: 0 0 30px rgba(0,0,0,0.4);
-}
 
-.inCard{
-	padding: 10px 45px 10px 60px;
-}
 
-.inCard p{
-	padding:  40px 20px;
-}
+.serviseCard2{
+	box-sizing: border-box ;
+	margin: 0 auto ;
+	width: 50% ; 
+	text-align: center ;       
+ }
+
 
 .activ{
 	display: flex;
